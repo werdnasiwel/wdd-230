@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>BYUI Assingmet</title>
 
 </head>
@@ -54,22 +54,10 @@
       &copy; 2021 Justin S. Murrey Ohio BYUI Online learning
     </p>
     <p id="date">
-      last update - <span id="currentdate">
-
-      </span>
+      last update - <span id="currentdate"></span>
     </p>
   </footer>
-  <script src="/s"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
-
-<!--todays date and time*/
-const options = {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-};
-
-document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options)
