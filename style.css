@@ -1,5 +1,8 @@
 body{
- font-family: Arial, Helvetica, sans-serif;   
+   max-width: 960px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;   
 }
 header{
     background-color: rgb(83, 18, 18);
@@ -14,8 +17,8 @@ footer{
      height: 100px;
 }
 #h-img{
-    display:flex;
-    justify-content: flex-end;
+   padding: auto;
+ 
     /*width: 165px;*/
     
 }
