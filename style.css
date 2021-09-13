@@ -1,13 +1,13 @@
 body{
-    margin: 0 auto;
+    margin: 0px ;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;   
 }
 header{
     background-color: rgb(83, 18, 18);
     height:70px;
     border-radius: 10px;
-   
-    }
+   }
 
 footer{
      background-color:  rgb(83, 18, 18);
@@ -22,13 +22,32 @@ footer{
     align-content: center;
     margin: 200px;
     display:flex;
-    font-size: 2em;
+    font-size: 1em;
      color:#ffff;
     }
-#h-img
+#img1
 {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
-  margin-bottom: 300px;
+  margin-right: 20px;
+  position: relative;
+  bottom:50px;
+
+}
+.leftcol {
+    width: 48%;
+    flex: 1 0. 15em;
+    margin: .5em;
+}
+#sec1 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+#label{
+    border-bottom: 2px solid gray;
+}
+#date{
+    color:yellow ;
 }
