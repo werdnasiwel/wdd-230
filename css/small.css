@@ -12,7 +12,6 @@ footer{
 header{
     background-color: darkblue;
     padding: 1.5rem;
-    border-radius: 10px;
 }
 
 header img{
@@ -22,7 +21,7 @@ header img{
 header img{
     width: 200px;
     height: auto;
-    box-shadow: 5px 5px 5px 5px ghostwhite;
+    box-shadow: 5px 5px 5px 5px #3333;
 }
 
 h1{
